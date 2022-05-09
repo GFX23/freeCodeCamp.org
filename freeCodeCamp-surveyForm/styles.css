@@ -1,0 +1,28 @@
+fieldset {
+    display: block;
+    max-width: 400px;
+    background: linear-gradient(35deg, pink, lightblue)
+}
+
+#form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+#submit-btn {
+    background-color: rgb(71, 201, 112);
+    color: white;
+    height: 2rem;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+input {
+    margin: 3px 0;
+    font-family: inherit;
+}
+
+#input-textarea {
+    min-height: 120px;
+}
