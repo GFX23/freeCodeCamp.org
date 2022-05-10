@@ -36,7 +36,7 @@ p {
     margin: 0;
 }
 
-#submit-btn {
+#submit {
     background-color: rgb(71, 201, 112);
     color: white;
     height: 2rem;
@@ -71,6 +71,10 @@ select {
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     margin: 3.125rem auto 0 auto;
 }
