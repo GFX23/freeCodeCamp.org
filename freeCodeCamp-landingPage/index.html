@@ -15,21 +15,21 @@
 </head>
 <body>
     <div id="page-wrapper">
-        <header>
+        <header id="header">
             <div class="logo">
-            <img src="images/fulllogo_transparent_nobuffer.png" alt="logo of TS Industry">
+            <img id="header-img" src="images/fulllogo_transparent_nobuffer.png" alt="logo of TS Industry">
             </div>
-            <nav id="navbar">
-                <button id="link"><a href="#footer"></a>Contact</button>
-                <button id="link"><a href="#aboutus"></a>About us</button>
-                <button id="link"><a href="#projects"></a>Projects</button>
+            <nav id="nav-bar">
+                <li><a class="nav-link" href="#footer">Contact</a></li>
+                <li><a class="nav-link" href="#features">About us</a></li>
+                <li><a class="nav-link" href="#video-div">Projects</a></li>
             </nav>
         </header>
         <main>
             <div id="hero">
                 <h2>Working on various projects all the day!</h2>
-                <form id="form">
-                    <input type="email" placeholder="Enter your email adress:" name="email">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" placeholder="Enter your email adress:" name="email">
                     <button type="submit" id="submit">CONTACT US!</button>
                 </form>
             </div>
@@ -68,6 +68,19 @@
                     </div>
                   </div>
                 </section>
+                <div id="video-div">
+                    <iframe id="video" width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/YByMeVfi3uc" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div id="footer">
+                    <p>&copy TS INDUTRY s.r.o - designed by GFX23</p>
+                </div>
             </div>
         </main>
     </div>
